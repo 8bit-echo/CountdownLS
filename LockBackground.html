@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Countdown Widget</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <div class="countdownContainer">
+            <div class="years">
+                <span class="number" id="yearNumber">00</span>
+                <span class="label">years</span>
+            </div>
+            <!-- /years -->
+            <div class="days">
+                <span class="number" id="dayNumber">00</span>
+                <span class="label">days</span>
+            </div>
+            <!-- /days -->
+            <div class="hours">
+                <span class="number" id="hourNumber">00</span>
+                <span class="label">hours</span>
+            </div>
+            <!-- /hours -->
+            <div class="minutes">
+                <span class="number" id="minuteNumber">00</span>
+                <span class="label">mins</span>
+            </div>
+            <!-- /minutes -->
+            <div class="seconds">
+                <span class="number" id="secondNumber">00</span>
+                <span class="label">secs</span>
+            </div>
+            <!-- /seconds -->
+        </div>
+        <!-- /countdownContainer -->
+        <div class="until">
+            <p>until <span class="event" id="event">"your event here."</span></p>
+        </div>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <!-- /container -->
+    <script src="js/confetti.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>name</key>
+      <string>userEvent</string>
+      <key>type</key>
+      <string>edit</string>
+      <key>label</key>
+      <string>Event Title</string>
+      <key>default</key>
+      <string></string>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>userMonthNumber</string>
+      <key>type</key>
+      <string>edit</string>
+      <key>label</key>
+      <string>Month Number</string>
+      <key>default</key>
+      <string></string>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>userDayNumber</string>
+      <key>type</key>
+      <string>edit</string>
+      <key>label</key>
+      <string>Day Number</string>
+      <key>default</key>
+      <string></string>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>userYear</string>
+      <key>type</key>
+      <string>edit</string>
+      <key>label</key>
+      <string>Year</string>
+      <key>default</key>
+      <string></string>
+    </dict>
+
+    <dict>
+      <key>name</key>
+      <string>userTime</string>
+      <key>type</key>
+      <string>edit</string>
+      <key>label</key>
+      <string>time</string>
+      <key>default</key>
+      <string>12:00 AM</string>
+    </dict>
+  </array>
+</plist>;
